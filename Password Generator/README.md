@@ -34,13 +34,12 @@ The script includes the following key components:
 
 - **User Input**: The script prompts the user to enter the desired password length and then prints the generated password.
 
-## Example
+
 
 ## Example
 
-\`\`\`bash
-Enter password length: 12
-Generated password: aB3!fG8@kL1#
+Enter password length: 12  
+Generated password: aB3!fG8@kL1#  
 
 
 ## Requirements
