@@ -36,10 +36,12 @@ The script includes the following key components:
 
 ## Example
 
+## Example
+
 \`\`\`bash
 Enter password length: 12
 Generated password: aB3!fG8@kL1#
-\`\`\`
+
 
 ## Requirements
 
