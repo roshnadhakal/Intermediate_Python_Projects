@@ -59,7 +59,7 @@ while lives > 0:
 - Checks if the guessed letter is part of the word.
 
 \`\`\`python
-        # Reveal the correct letter
+        # Reveal the correct letter  
         for i in range(len(word)):
             if word[i] == letter:
                 guessed[i] = letter
@@ -68,7 +68,7 @@ while lives > 0:
 
 \`\`\`python
     else:
-        # Decrease the number of lives
+        # Decrease the number of lives  
         lives -= 1
 \`\`\`
 - If the letter is incorrect, the player loses a life.
