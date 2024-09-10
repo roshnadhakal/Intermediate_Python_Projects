@@ -66,7 +66,7 @@ while lives > 0:
 - If the letter is correct, it updates the \`guessed\` list to reveal the letter in the correct position.
 
 \`\`\`python
-    else:
+    else:  
         # Decrease the number of lives  
         lives -= 1
 \`\`\`
@@ -80,7 +80,7 @@ while lives > 0:
 \`\`\`
 - If there are no underscores left in the \`guessed\` list, the player has successfully guessed the word, and the game ends.
 
-\`\`\`python
+
 # If user runs out of lives, they lose
 if lives == 0:  
     print(\"Game Over, You lose! the word was \" + word)  
