@@ -21,29 +21,29 @@ word = \"Nepal\".lower()
 \`\`\`
 - This line initializes the word to be guessed, converting it to lowercase for case-insensitive comparison.
 
-\`\`\`python
+
 # The number of lives
 lives = 5
 \`\`\`
 - This sets the number of incorrect guesses (lives) a player can make before losing the game.
 
-\`\`\`python
+
 # The guessed letters
 guessed = [\"_\"] * len(word)
 \`\`\`
 - Initializes a list to keep track of the correctly guessed letters. It starts with underscores representing unguessed letters.
 
-\`\`\`python
+
 # The Game loop
 while lives > 0:
 \`\`\`
 - This starts the main game loop, which continues until the player runs out of lives.
 
-\`\`\`python
+
     # Print the current state of the word
     print(\" \".join(guessed))
     print(f\"Lives: {lives}\")
-\`\`\`
+
 - Displays the current state of the guessed word and the number of lives remaining.
 
 \`\`\`python
