@@ -16,9 +16,6 @@ Welcome to the Hangman Game! This is a simple text-based implementation of the c
 
 ## Code Explanation
 
-Here’s a breakdown of the code used in the game:
-
-\`\`\`python
 # The word to be guessed
 word = \"Nepal\".lower()
 \`\`\`
