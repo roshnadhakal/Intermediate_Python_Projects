@@ -36,7 +36,7 @@ def binary_search(sorted_list, target):
 ### Initializing Indices
 
 \`\`\`python
-low = 0
+low = 0  
 high = len(sorted_list) - 1
 \`\`\`
 
@@ -96,7 +96,7 @@ return -1
 ### Sample Output
 
 \`\`\`
-Enter an element from 1-10: 5
+Enter an element from 1-10: 5  
 Element 5 found at index 4
 \`\`\`
 
