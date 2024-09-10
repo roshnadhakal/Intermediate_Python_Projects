@@ -17,7 +17,7 @@ Welcome to the Hangman Game! This is a simple text-based implementation of the c
 ## Code Explanation
 
 # The word to be guessed
-word = \"Nepal\".lower()
+word = \"Nepal\".lower()  
 \`\`\`
 - This line initializes the word to be guessed, converting it to lowercase for case-insensitive comparison.
 
@@ -35,34 +35,33 @@ guessed = [\"_\"] * len(word)
 
 
 # The Game loop
-while lives > 0:
+while lives > 0:  
 \`\`\`
 - This starts the main game loop, which continues until the player runs out of lives.
 
-
-    # Print the current state of the word
-    print(\" \".join(guessed))
-    print(f\"Lives: {lives}\")
+    # Print the current state of the word  
+    print(\" \".join(guessed))  
+    print(f\"Lives: {lives}\")  
 
 - Displays the current state of the guessed word and the number of lives remaining.
 
 \`\`\`python
-    # Ask the user for a letter
-    letter = input(\"Guess a letter: \")
+    # Ask the user for a letter    
+    letter = input(\"Guess a letter: \")   
 \`\`\`
 - Prompts the player to input a letter.
 
 \`\`\`python
-    # Check if the letter is in the word
-    if letter in word:
+    # Check if the letter is in the word  
+    if letter in word:  
 \`\`\`
 - Checks if the guessed letter is part of the word.
 
 \`\`\`python
-        # Reveal the correct letter  
-        for i in range(len(word)):
-            if word[i] == letter:
-                guessed[i] = letter
+        # Reveal the correct letter    
+        for i in range(len(word)):  
+            if word[i] == letter:  
+                guessed[i] = letter  
 \`\`\`
 - If the letter is correct, it updates the \`guessed\` list to reveal the letter in the correct position.
 
@@ -74,17 +73,17 @@ while lives > 0:
 - If the letter is incorrect, the player loses a life.
 
 \`\`\`python
-    # Check if the word has been fully guessed
-    if \"_\" not in guessed:
-        print(\"Congratulations you won!, the word is \" + word)
-        break
+    # Check if the word has been fully guessed  
+    if \"_\" not in guessed:  
+        print(\"Congratulations you won!, the word is \" + word)  
+        break  
 \`\`\`
 - If there are no underscores left in the \`guessed\` list, the player has successfully guessed the word, and the game ends.
 
 \`\`\`python
 # If user runs out of lives, they lose
-if lives == 0:
-    print(\"Game Over, You lose! the word was \" + word)
+if lives == 0:  
+    print(\"Game Over, You lose! the word was \" + word)  
 \`\`\`
 - If the player runs out of lives, the game ends with a loss message.
 
