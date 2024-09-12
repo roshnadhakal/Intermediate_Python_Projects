@@ -2,7 +2,7 @@
 
 This Python script scrapes the latest headlines from the CNN website using the Requests library to send an HTTP request and the BeautifulSoup library to parse the HTML content.
 
-## Prerequisites
+## Requirements
 
 - Python 3.12.4 or higher
 - Requests library
@@ -13,47 +13,20 @@ This Python script scrapes the latest headlines from the CNN website using the R
 1. Install Python 3.12.4 or higher from the official website: https://www.python.org/downloads/
 2. Open a terminal or command prompt and run the following commands to install the required libraries:
 
-\`\`\`bash
 pip install requests  
 pip install beautifulsoup4
-\`\`\`
 
-## Usage
+## Code Explanation
+1. **Imports**: The script imports the requests library to handle HTTP requests and BeautifulSoup from the bs4 library to parse HTML content.
+2. **URL Setup**: The URL of the CNN website is defined, which can be adjusted to scrape other sites.
+3. **HTTP Request**: The script sends a GET request to the specified URL using requests.get(). It checks the response status code to ensure the request was successful (HTTP 200).
+4. **HTML Parsing**: If the request is successful, the HTML content is parsed using BeautifulSoup. The script searches for all <h2> elements with a specific class that contains the headlines.
+5. **Output**: The script iterates through the found headlines and prints each one to the console. If the request fails, an error message is printed.
+6. Run the script in the terminal:  
 
-1. Save the following code in a file named \`scraper.py\`:
-
-\`\`\`python
-import requests  
-from bs4 import BeautifulSoup
-
-# Adjust the URL of the news website as needed
-url = \"https://edition.cnn.com/\"
-
-# Send an HTTP request to the website
-response = requests.get(url)
-
-# Check if the request was successful
-if response.status_code == 200:
-    # Parse the HTML content using BeautifulSoup
-    soup = BeautifulSoup(response.content, 'html.parser')
-   
-    # Find all the headlines elements on the page
-    headLines = soup.find_all('h2', class_='container__title_url-text container_lead-plus-headlines-with-images__title_url-text')
-    
-    # Print the headlines
-    for headline in headLines:
-        print(headline.text.strip())
-else:
-    print(\"Failed to retrieve the webpage\")
-\`\`\`
-
-2. Run the script in the terminal:
-
-\`\`\`bash
 python scraper.py
-\`\`\`
 
-3. The script will output the latest headlines from the CNN website.
+7. The script will output the latest headlines from the CNN website.
 
 ## Customization
 
