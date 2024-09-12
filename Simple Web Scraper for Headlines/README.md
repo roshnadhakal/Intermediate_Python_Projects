@@ -20,7 +20,7 @@ pip install beautifulsoup4
 1. **Imports**: The script imports the requests library to handle HTTP requests and BeautifulSoup from the bs4 library to parse HTML content.
 2. **URL Setup**: The URL of the CNN website is defined, which can be adjusted to scrape other sites.
 3. **HTTP Request**: The script sends a GET request to the specified URL using requests.get(). It checks the response status code to ensure the request was successful (HTTP 200).
-4. **HTML Parsing**: If the request is successful, the HTML content is parsed using BeautifulSoup. The script searches for all '<h2>'elements with a specific class that contains the headlines.
+4. **HTML Parsing**: If the request is successful, the HTML content is parsed using BeautifulSoup. The script searches for all 'h2'elements with a specific class that contains the headlines.
 5. **Output**: The script iterates through the found headlines and prints each one to the console. If the request fails, an error message is printed.
 6. Run the script in the terminal:  
    python scraper.py
