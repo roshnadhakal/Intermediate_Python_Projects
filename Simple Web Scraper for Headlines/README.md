@@ -14,7 +14,7 @@ This Python script scrapes the latest headlines from the CNN website using the R
 2. Open a terminal or command prompt and run the following commands to install the required libraries:
 
 \`\`\`bash
-pip install requests
+pip install requests  
 pip install beautifulsoup4
 \`\`\`
 
@@ -23,7 +23,7 @@ pip install beautifulsoup4
 1. Save the following code in a file named \`scraper.py\`:
 
 \`\`\`python
-import requests
+import requests  
 from bs4 import BeautifulSoup
 
 # Adjust the URL of the news website as needed
