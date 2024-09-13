@@ -16,7 +16,7 @@ python book_scraper.py
 
 The script will start scraping book titles and authors from the specified online bookstore, displaying the results in the terminal.
 
-**Example Output**
+**Example Output:**  
 When you run the script, you should see output similar to the following in your terminal:
 text  
 Title: The Great Gatsby, Author: F. Scott Fitzgerald  
