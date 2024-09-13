@@ -18,12 +18,12 @@ The script will start scraping book titles and authors from the specified online
 
 **Example Output**
 When you run the script, you should see output similar to the following in your terminal:
-text
-Title: The Great Gatsby, Author: F. Scott Fitzgerald
-Title: To Kill a Mockingbird, Author: Harper Lee
-Moving to page 2: https://shopratnaonline.com/product-category/books/page/2/
-Title: 1984, Author: George Orwell
-Title: Pride and Prejudice, Author: Jane Austen
+text  
+Title: The Great Gatsby, Author: F. Scott Fitzgerald  
+Title: To Kill a Mockingbird, Author: Harper Lee  
+Moving to page 2: https://shopratnaonline.com/product-category/books/page/2/  
+Title: 1984, Author: George Orwell  
+Title: Pride and Prejudice, Author: Jane Austen  
 
 ## Code Explanation
 
