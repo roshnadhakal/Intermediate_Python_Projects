@@ -25,7 +25,7 @@ This simple command-line Python Quiz Application  program tests your knowledge o
 3. **Run the Quiz**  
    Execute the quiz script using Python:
    ```bash
-   python quiz.py
+   python quiz_application.py
    ```
 
 ## Code Explanation
