@@ -1,6 +1,6 @@
 # Python Quiz Application
 
-Welcome to the Python Quiz Application! This simple command-line quiz program tests your knowledge on various topics through a series of questions. 
+This simple command-line Python Quiz Application  program tests your knowledge on various topics through a series of questions. 
 
 ## Requirements
 
@@ -15,11 +15,6 @@ Welcome to the Python Quiz Application! This simple command-line quiz program te
 
 ## How to Run
 
-1. **Clone the Repository**  
-   Clone this repository to your local machine using the following command:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   ```
 
 2. **Navigate to the Project Directory**  
    Change into the project directory:
