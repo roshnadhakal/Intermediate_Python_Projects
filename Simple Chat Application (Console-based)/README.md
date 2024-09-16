@@ -30,11 +30,11 @@ To shut down the server, type exit in the server console. This will send a shutd
 9. Two separate threads are started: one for accepting connections using accept_connection and one for sending messages using server_send_msg. 
 10. The server_send_msg function is called to allow the server administrator to send messages and initiate the shutdown process if needed.
     
-##Limitations
+## Limitations
 1. The chat application currently supports only text messages.  
 2. The server can only run on localhost. To allow clients to connect from other machines, you need to modify the IP address accordingly.  
 3. The server can handle multiple clients, but it doesn't have advanced features like user authentication or private messaging.
 
-##Contributing
+## Contributing
 Feel free to modify and extend the code to add more functionality as per your requirements.  
 
