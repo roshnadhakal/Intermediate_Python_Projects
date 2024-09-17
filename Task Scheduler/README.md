@@ -55,4 +55,4 @@ Reminder: Attend team meeting
 Reminder: Take a break  
 
 ## Contributing
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+Contributions are welcome! If you would like to contribute to this project,fork this repository or pull request.
