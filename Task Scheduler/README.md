@@ -44,8 +44,8 @@ This Python script allows you to schedule daily tasks and receive reminders at s
 
 ## Example Output
 
-Assuming your `tasks.txt` contains:
-09:00 Water the plants  
+Assuming your `tasks.txt` contains:  
+09:00 Water the plants    
 10:30 Attend team meeting  
 15:00 Take a break 
   
