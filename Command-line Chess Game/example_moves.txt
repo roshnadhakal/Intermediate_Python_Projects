@@ -1,0 +1,40 @@
+You can try the following sequences of moves to test the checkmate and stalemate scenarios in your chess game:
+
+### Checkmate Moves:
+
+1. e2 e4 (white)
+2. e7 e5 (black)
+3. g1 f3 (white)
+4. b8 c6 (black)
+5. f1 c4 (white)
+6. c6 d4 (black)
+7. f3 e5 (white)
+8. d8 g5 (black)
+9. e5 f7 (white)
+10. g5 g2 (black)
+11. h1 f1 (white)
+12. g2 e4 (black)
+13. c4 e2 (white)
+14. d4 f3 (black)
+
+### Stalemate Moves:
+
+1. c2 c4 (white)
+2. h7 h5 (black)
+3. h2 h4 (white)
+4. a7 a5 (black)
+5. d1 a4 (white)
+6. a8 a6 (black)
+7. a4 a5 (white)
+8. a6 h6 (black)
+9. a5 c7 (white)
+10. f7 f6 (black)
+11. c7 d7 (white)
+12. e8 f7 (black)
+13. d7 b7 (white)
+14. d8 d3 (black)
+15. b7 b8 (white)
+16. d3 h7 (black)
+17. b8 c8 (white)
+18. f7 g6 (black)
+19. c8 e6 (white)
